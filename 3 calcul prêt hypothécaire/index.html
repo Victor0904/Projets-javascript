@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>prêt hypothécaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1> Calculer votre prêt</h1>
+    <br>
+    <div>
+    <p>Montant du prêt en Є :</p>
+    <input type="number" id="montant" onchange="calculer()">
+    </div>
+    <div>
+      <p>Taux d'intérêt en % :</p>
+      <input type="number" id="taux" onchange="calculer()">
+    </div>
+    <div>
+      <p>Nombre de mois :</p>
+      <input type="number" id="mois" onchange="calculer()">
+    </div>
+    <div class="last">
+    <p>Paiement mensuel : <p id="paiement"> Є</p> </p>
+    </div>
+   
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

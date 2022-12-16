@@ -1,0 +1,36 @@
+body {
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+input {
+    font-size: 10em;
+    text-align: center;
+    width: 200px;
+    border: none;
+    background-color: rgba(255, 255, 255, .2);
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+}
+
+.error {
+    background-color: #e74d3c6b;
+    border: 2px solid #e74d3c6b;
+}
+
+.fa-check-circle {
+    font-size: 10em;
+    color: #fff;
+    display: none;
+}

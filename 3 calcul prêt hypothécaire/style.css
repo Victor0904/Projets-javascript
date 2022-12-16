@@ -1,0 +1,20 @@
+main {
+  border: double  black ;
+  width: 600px;
+  text-align: center;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+ font-size: 25px;
+}
+
+input{
+  font-size: 18px;
+}
+
+.last{
+  display: inline;
+}

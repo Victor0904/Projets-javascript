@@ -1,0 +1,61 @@
+body{
+  background-color: beige;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  width: 50%;
+  margin-left: 25%;
+
+}
+.chiffre1{
+  margin-left: 10px;
+  border: solid;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+.chiffre2{
+  margin-left: 10px;
+  border: solid;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+.gros{
+  margin-left: 10px;
+  font-size: 65px;
+}
+input{
+  margin-left: 10px;
+  height: 45px;
+  font-size: 25px;
+  background-color: beige;
+
+}
+
+#btn {
+    border-radius: 20%;
+    text-transform: uppercase;
+}
+.mid{
+ 
+  font-size: 5vh;
+}
+
+img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+.box-score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px
+  }

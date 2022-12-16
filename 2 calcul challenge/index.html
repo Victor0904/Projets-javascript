@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <img src="yes.PNG" class="yes" id="yes" style="display:none">
+    <img src="no.PNG"class="no" id="no"style="display:none">
+  </nav>
+  <main id="all">
+    <div class="chiffre1">
+      <p class="mid" id="chiffre-ch1"> </p>
+    </div>
+      <p class="gros">+</p>
+    <div class="chiffre2">
+      <p class="mid" id="chiffre-ch2"></p>
+    </div>
+      <p  class="gros">=</p>
+   <input type="number" id="resultat" onchange="resultat()">
+  <!--    <input id="btn" type="submit" value="valider">  -->
+  
+  </main>
+  <div id="box-score" class="box-score">
+    <p id="score"> score : 0 </p>
+  </div>
+<script src="apps.js"></script>
+</body>
+</html>
